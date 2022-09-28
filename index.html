@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/5.2/examples/carousel/# -->
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tp-Integrador-Alan-Callisaya</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Estilo personal-->
+        <link rel="stylesheet" href="./descarga/stylo.css"
+        <!--bootstrap-->
+        <link rel="stylesheet" href="./descarga/bootstrap.min.css">
+    </head>
+
+   <body>
+        <nav id="navegador" class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+              <div class="logo">
+                <img id="codoacodo" src="./descarga/codoacodo.png" alt="Logo Codo a Codo">
+                <a id="conf" class="navbar-brand" href="https://tp-integrador-alan-callisaya.netlify.app">Conf Bs As</a>
+              </div>
+              <div class="ul collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://tp-integrador-alan-callisaya.netlify.app">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://tp-integrador-alan-callisaya.netlify.app">los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://tp-integrador-alan-callisaya.netlify.app">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://tp-integrador-alan-callisaya.netlify.app">Conviertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="https://tp-integrador-alan-callisaya.netlify.app">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+          </nav>
+  
+
+        <main id="carta" class="position-relative">
+        <div id="contenido">
+          <h1>Conf Bs As</h1>
+          <p>Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad el conocimiento y experiencia de los expertos que <br>están creando el futuro de Internet. Ven a conocer a miembros del<br>  evento, a otros estudiantes de Codo a Codo y oradores de primer <br> nivel que tenemos para ti. Te esperamos!</p>
+          <button type="button" class="boton">Quiero ser orador</button>
+          <button type="button" class="boton" id="uno">Comprar tickets</button> 
+        </div>
+      </main>
+
+
+      <div id="oradores" class="container1">
+          <h2 class="unico"><span class="unico">CONOCE A LOS</span> <br> ORADORES</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./descarga/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                  <div class="card-body">
+                      <button type="button" class="btn btn-warning"><strong>JavaScript</strong></button>
+                      <button type="button" class="btn btn-primary"><strong>React</strong></button>
+                      <i></i>
+                      <h3 class="card-title">Steve Jobs</h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore ex architecto? Repellat pariatur maiores quam placeat inventore eveniet eius esse? Quisquam corporis sapiente laboriosam debitis, dolore culpa vitae illum!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./descarga/bill.jpg" class="card-img-top" alt="Bill Gates">
+                  <div class="card-body">
+                      <button type="button" class="btn btn-warning"><strong>JavaScript</strong></button>
+                      <button type="button" class="btn btn-primary"><strong>React</strong></button>
+                      <h3 class="card-title">Bill Gates</h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatibus impedit ducimus quas deserunt, culpa quibusdam atque maiores. Autem, ex culpa! Dolorum quas earum quod vel voluptas aut necessitatibus. Dicta!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./descarga/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                  <div class="card-body">
+                      <button type="button" class="btn btn-secondary"><strong> Negocios</strong></button>
+                      <button type="button" class="btn btn-danger"><strong> Startups</strong></button>
+                      <h3 class="card-title">Ada Lovelace</h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum nulla eligendi autem sequi quod minima nesciunt facilis non dignissimos molestiae, quidem sunt distinctio sint officia. Accusamus aut veritatis cum?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
+
+      <div id="fecha" class="container2">
+        <div class="img">
+          <img src="./descarga/playa.jpg" alt="Playa">
+        </div>
+        <div class="parrafo">
+          <h2>Bs As - Octubre</h2>
+          <p>Buenos Aires es la gran capital cosmopolita de Argentina.Su centro es la Plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que tiene varios balcones. Entre otras atracciones importantes,<br> se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos,<br> y el moderno museo MALBA, que exhibe arte latinoamericano</p>
+          <button id="conoce" type="button" class="boton">Conocé más</button>
+        </div>
+      </div>
+
+
+
+      <div id="formulario">
+        <h2 class="unico"><span class="unico">CONVIÉRTETE EN UN</span> <br> ORADOR</h2>
+        <p class="for">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        <form action="">
+          <div class="row contenedores">
+            <div class="col">
+              <input id="nombre" type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+              <input id="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+          </div>
+          <p id="recuerda">Recuerda incluir un titulo para tu charla</p>
+          <button class="enviar" type="button"> Enviar</button>
+        </form>
+    </div>
+
+    <footer id="footer">
+      <div class="footer">
+      <ul>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app"> Preguntas <br> frecuentes</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app"> Contáctanos</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app"> Prensa</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app">Conferencias</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app">Términos y condiciones</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app">Privacidad</a></li>
+        <li><a href="https://tp-integrador-alan-callisaya.netlify.app">Estudiantes</a></li>
+      </ul>
+    </div>
+  </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="./bootstrap.bundle.min.js.download" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
