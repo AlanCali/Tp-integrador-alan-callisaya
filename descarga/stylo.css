@@ -46,7 +46,7 @@
 
 /* Carta*/
 #carta{
-  height: 1500px;
+  height: 500px;
   background: rgba(0, 0, 0, 0.5) url("./carta.jpg");
   background-blend-mode:screen ;
   background-repeat: no-repeat;
